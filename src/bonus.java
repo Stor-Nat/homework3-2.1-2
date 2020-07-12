@@ -1,8 +1,7 @@
-public class bonus {
+public class Bonus {
     public static void main(String[] args) {
         int balance = 70;
-        int replenishment;
-        replenishment = 1050;
+        int replenishment = 1050;
         if (replenishment <= 1000) {
             balance = balance + replenishment;
             System.out.println("Сумма поплнения " + replenishment + " руб.");
