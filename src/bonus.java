@@ -7,8 +7,7 @@ public class Bonus {
             System.out.println("Сумма поплнения " + replenishment + " руб.");
             System.out.println("Ваш баланс = " + balance + " руб.");
         } else {
-            int bonus;
-            bonus = replenishment / 100;
+            int bonus = replenishment / 100;
             balance = balance + replenishment + bonus;
             System.out.println("Сумма поплнения " + replenishment + " руб.");
             System.out.println("Начислено бонусов " + bonus);
